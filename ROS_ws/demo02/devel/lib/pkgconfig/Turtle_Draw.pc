@@ -1,0 +1,8 @@
+prefix=/home/tim/ROS_ws/demo02/devel
+
+Name: Turtle_Draw
+Description: Description of Turtle_Draw
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

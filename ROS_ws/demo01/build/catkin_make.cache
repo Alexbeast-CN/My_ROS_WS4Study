@@ -1,0 +1,2 @@
+hello_head_src:hello_vscode
+-DCATKIN_DEVEL_PREFIX=/home/tim/ROS_ws/demo01/devel -DCMAKE_INSTALL_PREFIX=/home/tim/ROS_ws/demo01/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/tim/ROS_ws/demo02/install
+
+Name: apis
+Description: Description of apis
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

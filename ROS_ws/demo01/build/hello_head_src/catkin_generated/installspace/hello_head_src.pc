@@ -1,0 +1,8 @@
+prefix=/home/tim/ROS_ws/demo01/install
+
+Name: hello_head_src
+Description: Description of hello_head_src
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
