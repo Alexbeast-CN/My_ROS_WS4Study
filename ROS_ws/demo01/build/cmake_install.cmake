@@ -133,6 +133,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/tim/ROS_ws/demo01/build/gtest/cmake_install.cmake")
   include("/home/tim/ROS_ws/demo01/build/hello_head_src/cmake_install.cmake")
   include("/home/tim/ROS_ws/demo01/build/hello_vscode/cmake_install.cmake")
+  include("/home/tim/ROS_ws/demo01/build/topic_name/cmake_install.cmake")
+  include("/home/tim/ROS_ws/demo01/build/launch01_basic/cmake_install.cmake")
 
 endif()
 

@@ -7,3 +7,5 @@
 subdirs("gtest")
 subdirs("hello_head_src")
 subdirs("hello_vscode")
+subdirs("topic_name")
+subdirs("launch01_basic")

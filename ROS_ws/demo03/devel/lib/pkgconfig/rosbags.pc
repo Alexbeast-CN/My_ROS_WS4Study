@@ -1,0 +1,8 @@
+prefix=/home/tim/ROS_ws/demo03/devel
+
+Name: rosbags
+Description: Description of rosbags
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

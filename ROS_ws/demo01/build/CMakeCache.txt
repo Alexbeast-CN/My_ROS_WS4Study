@@ -385,6 +385,9 @@ catkin_DIR:PATH=/opt/ros/noetic/share/catkin/cmake
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/noetic/share/cpp_common/cmake
 
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/noetic/share/geometry_msgs/cmake
+
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/tim/ROS_ws/demo01/build/gtest/googlemock
 
@@ -446,6 +449,12 @@ hello_vscode_BINARY_DIR:STATIC=/home/tim/ROS_ws/demo01/build/hello_vscode
 //Value Computed by CMake
 hello_vscode_SOURCE_DIR:STATIC=/home/tim/ROS_ws/demo01/src/hello_vscode
 
+//Value Computed by CMake
+launch01_basic_BINARY_DIR:STATIC=/home/tim/ROS_ws/demo01/build/launch01_basic
+
+//Value Computed by CMake
+launch01_basic_SOURCE_DIR:STATIC=/home/tim/ROS_ws/demo01/src/launch01_basic
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/noetic/lib/libxmlrpcpp.so
 
@@ -475,6 +484,18 @@ rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
+
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/noetic/share/std_srvs/cmake
+
+//Value Computed by CMake
+topic_name_BINARY_DIR:STATIC=/home/tim/ROS_ws/demo01/build/topic_name
+
+//Value Computed by CMake
+topic_name_SOURCE_DIR:STATIC=/home/tim/ROS_ws/demo01/src/topic_name
+
+//The directory containing a CMake configuration file for turtlesim.
+turtlesim_DIR:PATH=/opt/ros/noetic/share/turtlesim/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/noetic/share/xmlrpcpp/cmake
@@ -627,7 +648,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

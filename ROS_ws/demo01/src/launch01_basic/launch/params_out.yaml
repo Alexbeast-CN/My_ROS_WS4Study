@@ -1,0 +1,23 @@
+bg_B: 100
+bg_G: 100
+bg_R: 100
+my_turtle:
+  background_b: 255
+  background_g: 86
+  background_r: 69
+  bg_B: 100
+  bg_G: 100
+  bg_R: 100
+  param_B: 3.14
+param_A: 100
+rosdistro: 'noetic
+
+  '
+roslaunch:
+  uris:
+    host_tims_ubuntu__37637: http://tims-ubuntu:37637/
+    host_tims_ubuntu__44253: http://tims-ubuntu:44253/
+rosversion: '1.15.11
+
+  '
+run_id: 4f67d178-017e-11ec-97de-211c3bbd3d3c

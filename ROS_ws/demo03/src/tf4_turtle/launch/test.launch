@@ -1,0 +1,26 @@
+<launch>
+    <!-- 启动乌龟的 gui-->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle1" output="screen"/>
+    <!-- 生成新的乌龟的节点-->
+    <node pkg="tf4_turtle" type="test01_new_turtle" name="turtle2" output="screen"/>
+    <!-- 启动乌龟控制节点-->
+    <node pkg="turtlesim" type="turtle_teleop_key" name="key" output="screen"/>
+
+    <!-- 需要启动两个乌龟相对于世界坐标系的关系发布-->
+    <!-- 
+        基本实现思路：
+            1. 节点只编写一个
+            2. 这个节点要启动两次
+            3. 节点启动时动态传参： 第一次启动传递：turtle1 第二次启动传递：turtle2
+    -->
+
+    <node pkg="tf4_turtle" type="test02_pub_turtle" name="pub1" args="turtle1" output="screen"/>
+    <node pkg="tf4_turtle" type="test02_pub_turtle" name="pub2" args="turtle2" output="screen"/>
+
+    <!-- 需要订阅 turtle1 与 turtle2 相对与世界坐标系的坐标消息，
+        并转化成 turtle1 相对于 turtle2 的坐标关系，再生成速度消息 -->
+
+    <node pkg="tf4_turtle" type="test03_control_turtle2" name="control"  output="screen"/>
+    
+
+</launch>
