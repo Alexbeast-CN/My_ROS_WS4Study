@@ -1,0 +1,12 @@
+<launch>
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find urdf01_rviz)/config/show_urdf.rviz" />
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" output="screen" />
+    <!-- 添加点云坐标系到kinect 两杆坐标系的变换-->
+    <node pkg="tf2_ros" 
+    type="static_transform_publisher" 
+    name="static_transform_publisher" 
+    output="screen"
+    args="0 0 0 -1.57 0 -1.57 /support /support_depth" />
+
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen" />
+</launch>
