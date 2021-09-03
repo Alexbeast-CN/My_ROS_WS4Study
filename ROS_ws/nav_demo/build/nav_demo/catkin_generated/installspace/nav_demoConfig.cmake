@@ -67,14 +67,14 @@ set(nav_demo_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(nav_demo_SOURCE_PREFIX /home/tim/ROS_ws/nav_demo/src/nav_demo)
-  set(nav_demo_DEVEL_PREFIX /home/tim/ROS_ws/nav_demo/devel)
+  set(nav_demo_SOURCE_PREFIX /home/tim/My_ROS_WS4Study/ROS_ws/nav_demo/src/nav_demo)
+  set(nav_demo_DEVEL_PREFIX /home/tim/My_ROS_WS4Study/ROS_ws/nav_demo/devel)
   set(nav_demo_INSTALL_PREFIX "")
   set(nav_demo_PREFIX ${nav_demo_DEVEL_PREFIX})
 else()
   set(nav_demo_SOURCE_PREFIX "")
   set(nav_demo_DEVEL_PREFIX "")
-  set(nav_demo_INSTALL_PREFIX /home/tim/ROS_ws/nav_demo/install)
+  set(nav_demo_INSTALL_PREFIX /home/tim/My_ROS_WS4Study/ROS_ws/nav_demo/install)
   set(nav_demo_PREFIX ${nav_demo_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/tim/ROS_ws/nav_demo/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/tim/My_ROS_WS4Study/ROS_ws/nav_demo/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

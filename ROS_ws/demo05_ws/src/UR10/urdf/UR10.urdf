@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="UR10">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.00241444261100689 -0.104513192570385 0.136411402269452"
+        rpy="0 0 0" />
+      <mass
+        value="0.706324320048481" />
+      <inertia
+        ixx="0.00115557612300412"
+        ixy="4.80084221925232E-08"
+        ixz="7.87552989824148E-08"
+        iyy="0.00114584540440243"
+        iyz="1.99544890443535E-07"
+        izz="0.00212897019309279" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UR10/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UR10/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Motor1_Link">
+    <inertial>
+      <origin
+        xyz="4.79666530822653E-06 0.0784763967727724 -0.0116150359362407"
+        rpy="0 0 0" />
+      <mass
+        value="3.07359044496664" />
+      <inertia
+        ixx="0.0114773924093733"
+        ixy="-1.02040954324146E-06"
+        ixz="-2.16288485082108E-08"
+        iyy="0.0101200034164775"
+        iyz="0.000858438406286923"
+        izz="0.0107166707033301" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UR10/meshes/Motor1_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UR10/meshes/Motor1_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor1"
+    type="fixed">
+    <origin
+      xyz="0.0024074515813577 -0.104353839104099 0.15597596146156"
+      rpy="1.5707963267949 0 0.554555196404332" />
+    <parent
+      link="base_link" />
+    <child
+      link="Motor1_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="Motor2_Link">
+    <inertial>
+      <origin
+        xyz="0.000418323017249971 0.251043395898089 -0.170393718097669"
+        rpy="0 0 0" />
+      <mass
+        value="8.71253692122248" />
+      <inertia
+        ixx="0.096507003573906"
+        ixy="-7.18504772418496E-05"
+        ixz="-6.79437867689252E-05"
+        iyy="0.0199173787035406"
+        iyz="0.000598895585513671"
+        izz="0.0949366385430019" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UR10/meshes/Motor2_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UR10/meshes/Motor2_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor2"
+    type="revolute">
+    <origin
+      xyz="0 0.0899999999999895 0"
+      rpy="0 0 0.361283874206159" />
+    <parent
+      link="Motor1_Link" />
+    <child
+      link="Motor2_Link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Motor3_Link">
+    <inertial>
+      <origin
+        xyz="0.00104803517496654 0.256917626879726 -0.0424075176767121"
+        rpy="0 0 0" />
+      <mass
+        value="4.65333364339624" />
+      <inertia
+        ixx="0.051603270446379"
+        ixy="-6.15325428556164E-05"
+        ixz="-0.000115174641200173"
+        iyy="0.00595507572643275"
+        iyz="-0.000287113903983639"
+        izz="0.0515328135058399" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UR10/meshes/Motor3_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UR10/meshes/Motor3_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor3"
+    type="revolute">
+    <origin
+      xyz="0.0452663477175206 0.612899999999999 -0.0125350560570252"
+      rpy="0.263248927559656 -0.0613803461396275 1.79459410643369" />
+    <parent
+      link="Motor2_Link" />
+    <child
+      link="Motor3_Link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Motor4_Link">
+    <inertial>
+      <origin
+        xyz="2.95018964024951E-06 0.0097377828239078 -0.0777556954864359"
+        rpy="0 0 0" />
+      <mass
+        value="0.728389750887566" />
+      <inertia
+        ixx="0.00111499799956404"
+        ixy="7.41678618950447E-08"
+        ixz="-3.07882446677643E-08"
+        iyy="0.000883637341482311"
+        iyz="9.07905009451698E-05"
+        izz="0.00103084580513643" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UR10/meshes/Motor4_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UR10/meshes/Motor4_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor4"
+    type="revolute">
+    <origin
+      xyz="0.0208736752835977 0.571599999999994 -0.0197834917618624"
+      rpy="3.05193994895733 -0.754326416553888 -3.01106860216041" />
+    <parent
+      link="Motor3_Link" />
+    <child
+      link="Motor4_Link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Motor5_Link">
+    <inertial>
+      <origin
+        xyz="-1.8880640232366E-06 0.108100327703805 -0.00973789481530418"
+        rpy="0 0 0" />
+      <mass
+        value="0.72839056225215" />
+      <inertia
+        ixx="0.00111498189444424"
+        ixy="-2.13634400083999E-08"
+        ixz="7.20850699760594E-08"
+        iyy="0.00103084431269893"
+        iyz="9.07943200409834E-05"
+        izz="0.000883643645555481" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UR10/meshes/Motor5_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UR10/meshes/Motor5_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor5"
+    type="revolute">
+    <origin
+      xyz="0 0 -0.085355906747056"
+      rpy="3.14159265358978 -1.49222766002308 -3.14159265358977" />
+    <parent
+      link="Motor4_Link" />
+    <child
+      link="Motor5_Link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Motor6_Link">
+    <inertial>
+      <origin
+        xyz="-2.47814010978509E-08 -0.000949415356837013 -0.0138092621214108"
+        rpy="0 0 0" />
+      <mass
+        value="0.159236440194262" />
+      <inertia
+        ixx="8.19109792697765E-05"
+        ixy="-3.93410643587122E-11"
+        ixz="-3.74910905443776E-11"
+        iyy="8.77581172044845E-05"
+        iyz="-4.72711435719603E-07"
+        izz="0.000149632249949121" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UR10/meshes/Motor6_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UR10/meshes/Motor6_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor6"
+    type="revolute">
+    <origin
+      xyz="0 0.1157 -0.0609296609450846"
+      rpy="0 0 -2.41208543198363" />
+    <parent
+      link="Motor5_Link" />
+    <child
+      link="Motor6_Link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

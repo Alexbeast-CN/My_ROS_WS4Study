@@ -67,14 +67,14 @@ set(tf01_static_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(tf01_static_SOURCE_PREFIX /home/tim/ROS_ws/demo03/src/tf01_static)
-  set(tf01_static_DEVEL_PREFIX /home/tim/ROS_ws/demo03/devel)
+  set(tf01_static_SOURCE_PREFIX /home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/tf01_static)
+  set(tf01_static_DEVEL_PREFIX /home/tim/My_ROS_WS4Study/ROS_ws/demo03/devel)
   set(tf01_static_INSTALL_PREFIX "")
   set(tf01_static_PREFIX ${tf01_static_DEVEL_PREFIX})
 else()
   set(tf01_static_SOURCE_PREFIX "")
   set(tf01_static_DEVEL_PREFIX "")
-  set(tf01_static_INSTALL_PREFIX /home/tim/ROS_ws/demo03/install)
+  set(tf01_static_INSTALL_PREFIX /home/tim/My_ROS_WS4Study/ROS_ws/demo03/install)
   set(tf01_static_PREFIX ${tf01_static_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/tim/ROS_ws/demo03/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/tim/My_ROS_WS4Study/ROS_ws/demo03/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

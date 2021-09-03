@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/tim/ROS_ws/demo03/src/tf4_turtle/src/test02_pub_turtle.cpp
+/home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/tf4_turtle/src/test02_pub_turtle.cpp
 ros/ros.h
-/home/tim/ROS_ws/demo03/src/tf4_turtle/src/ros/ros.h
+/home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/tf4_turtle/src/ros/ros.h
 turtlesim/Pose.h
-/home/tim/ROS_ws/demo03/src/tf4_turtle/src/turtlesim/Pose.h
+/home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/tf4_turtle/src/turtlesim/Pose.h
 tf2_ros/transform_broadcaster.h
-/home/tim/ROS_ws/demo03/src/tf4_turtle/src/tf2_ros/transform_broadcaster.h
+/home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/tf4_turtle/src/tf2_ros/transform_broadcaster.h
 geometry_msgs/TransformStamped.h
-/home/tim/ROS_ws/demo03/src/tf4_turtle/src/geometry_msgs/TransformStamped.h
+/home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/tf4_turtle/src/geometry_msgs/TransformStamped.h
 tf2/LinearMath/Quaternion.h
-/home/tim/ROS_ws/demo03/src/tf4_turtle/src/tf2/LinearMath/Quaternion.h
+/home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/tf4_turtle/src/tf2/LinearMath/Quaternion.h
 
 /opt/ros/noetic/include/geometry_msgs/Quaternion.h
 string

@@ -1,0 +1,23 @@
+digraph G {
+node [shape=box];
+"base_link" [label="base_link"];
+"Motor1_Link" [label="Motor1_Link"];
+"Motor2_Link" [label="Motor2_Link"];
+"Motor3_Link" [label="Motor3_Link"];
+"Motor4_Link" [label="Motor4_Link"];
+"Motor5_Link" [label="Motor5_Link"];
+"Motor6_Link" [label="Motor6_Link"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_link" -> "Motor1" [label="xyz: 0.00240745 -0.104354 0.155976 \nrpy: 1.5708 -5.55112e-17 0.554555"]
+"Motor1" -> "Motor1_Link"
+"Motor1_Link" -> "Motor2" [label="xyz: 0 0.09 0 \nrpy: 0 -0 0.361284"]
+"Motor2" -> "Motor2_Link"
+"Motor2_Link" -> "Motor3" [label="xyz: 0.0452663 0.6129 -0.0125351 \nrpy: 0.263249 -0.0613803 1.79459"]
+"Motor3" -> "Motor3_Link"
+"Motor3_Link" -> "Motor4" [label="xyz: 0.0208737 0.5716 -0.0197835 \nrpy: 3.05194 -0.754326 -3.01107"]
+"Motor4" -> "Motor4_Link"
+"Motor4_Link" -> "Motor5" [label="xyz: 0 0 -0.0853559 \nrpy: 3.14159 -1.49223 -3.14159"]
+"Motor5" -> "Motor5_Link"
+"Motor5_Link" -> "Motor6" [label="xyz: 0 0.1157 -0.0609297 \nrpy: 0 0 -2.41209"]
+"Motor6" -> "Motor6_Link"
+}

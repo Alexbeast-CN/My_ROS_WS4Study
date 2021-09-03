@@ -1,0 +1,2 @@
+UR10:URDF01_RVIZ
+-DCATKIN_DEVEL_PREFIX=/home/tim/My_ROS_WS4Study/ROS_ws/demo05_ws/devel -DCMAKE_INSTALL_PREFIX=/home/tim/My_ROS_WS4Study/ROS_ws/demo05_ws/install -G Unix Makefiles

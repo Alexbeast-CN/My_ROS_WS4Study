@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tim/ROS_ws/demo03/devel/lib/rosbags/demo02_read_bag"
-  "/home/tim/ROS_ws/demo03/devel/lib/rosbags/demo02_read_bag.pdb"
+  "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/devel/lib/rosbags/demo02_read_bag"
+  "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/devel/lib/rosbags/demo02_read_bag.pdb"
   "CMakeFiles/demo02_read_bag.dir/src/demo02_read_bag.cpp.o"
 )
 

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/tim/ROS_ws/demo03/src/rosbags/src/demo01_write_bag.cpp
+/home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/rosbags/src/demo01_write_bag.cpp
 ros/ros.h
-/home/tim/ROS_ws/demo03/src/rosbags/src/ros/ros.h
+/home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/rosbags/src/ros/ros.h
 rosbag/bag.h
-/home/tim/ROS_ws/demo03/src/rosbags/src/rosbag/bag.h
+/home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/rosbags/src/rosbag/bag.h
 std_msgs/String.h
-/home/tim/ROS_ws/demo03/src/rosbags/src/std_msgs/String.h
+/home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/rosbags/src/std_msgs/String.h
 
 /opt/ros/noetic/include/class_loader/class_loader.hpp
 boost/bind.hpp

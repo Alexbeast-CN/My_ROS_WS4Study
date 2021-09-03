@@ -1,8 +1,8 @@
-# Install script for directory: /home/tim/ROS_ws/demo03/src/tf02_dynamic
+# Install script for directory: /home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/tf02_dynamic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tim/ROS_ws/demo03/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tim/ROS_ws/demo03/build/tf02_dynamic/catkin_generated/installspace/tf02_dynamic.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/build/tf02_dynamic/catkin_generated/installspace/tf02_dynamic.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf02_dynamic/cmake" TYPE FILE FILES
-    "/home/tim/ROS_ws/demo03/build/tf02_dynamic/catkin_generated/installspace/tf02_dynamicConfig.cmake"
-    "/home/tim/ROS_ws/demo03/build/tf02_dynamic/catkin_generated/installspace/tf02_dynamicConfig-version.cmake"
+    "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/build/tf02_dynamic/catkin_generated/installspace/tf02_dynamicConfig.cmake"
+    "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/build/tf02_dynamic/catkin_generated/installspace/tf02_dynamicConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf02_dynamic" TYPE FILE FILES "/home/tim/ROS_ws/demo03/src/tf02_dynamic/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf02_dynamic" TYPE FILE FILES "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/tf02_dynamic/package.xml")
 endif()
 

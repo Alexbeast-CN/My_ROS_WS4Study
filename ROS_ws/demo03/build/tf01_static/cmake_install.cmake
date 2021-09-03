@@ -1,8 +1,8 @@
-# Install script for directory: /home/tim/ROS_ws/demo03/src/tf01_static
+# Install script for directory: /home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/tf01_static
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tim/ROS_ws/demo03/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tim/ROS_ws/demo03/build/tf01_static/catkin_generated/installspace/tf01_static.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/build/tf01_static/catkin_generated/installspace/tf01_static.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf01_static/cmake" TYPE FILE FILES
-    "/home/tim/ROS_ws/demo03/build/tf01_static/catkin_generated/installspace/tf01_staticConfig.cmake"
-    "/home/tim/ROS_ws/demo03/build/tf01_static/catkin_generated/installspace/tf01_staticConfig-version.cmake"
+    "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/build/tf01_static/catkin_generated/installspace/tf01_staticConfig.cmake"
+    "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/build/tf01_static/catkin_generated/installspace/tf01_staticConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf01_static" TYPE FILE FILES "/home/tim/ROS_ws/demo03/src/tf01_static/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf01_static" TYPE FILE FILES "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/tf01_static/package.xml")
 endif()
 

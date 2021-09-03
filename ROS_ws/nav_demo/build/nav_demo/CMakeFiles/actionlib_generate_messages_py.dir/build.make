@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tim/ROS_ws/nav_demo/src
+CMAKE_SOURCE_DIR = /home/tim/My_ROS_WS4Study/ROS_ws/nav_demo/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tim/ROS_ws/nav_demo/build
+CMAKE_BINARY_DIR = /home/tim/My_ROS_WS4Study/ROS_ws/nav_demo/build
 
 # Utility rule file for actionlib_generate_messages_py.
 
@@ -63,10 +63,10 @@ nav_demo/CMakeFiles/actionlib_generate_messages_py.dir/build: actionlib_generate
 .PHONY : nav_demo/CMakeFiles/actionlib_generate_messages_py.dir/build
 
 nav_demo/CMakeFiles/actionlib_generate_messages_py.dir/clean:
-	cd /home/tim/ROS_ws/nav_demo/build/nav_demo && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/tim/My_ROS_WS4Study/ROS_ws/nav_demo/build/nav_demo && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : nav_demo/CMakeFiles/actionlib_generate_messages_py.dir/clean
 
 nav_demo/CMakeFiles/actionlib_generate_messages_py.dir/depend:
-	cd /home/tim/ROS_ws/nav_demo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tim/ROS_ws/nav_demo/src /home/tim/ROS_ws/nav_demo/src/nav_demo /home/tim/ROS_ws/nav_demo/build /home/tim/ROS_ws/nav_demo/build/nav_demo /home/tim/ROS_ws/nav_demo/build/nav_demo/CMakeFiles/actionlib_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tim/My_ROS_WS4Study/ROS_ws/nav_demo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tim/My_ROS_WS4Study/ROS_ws/nav_demo/src /home/tim/My_ROS_WS4Study/ROS_ws/nav_demo/src/nav_demo /home/tim/My_ROS_WS4Study/ROS_ws/nav_demo/build /home/tim/My_ROS_WS4Study/ROS_ws/nav_demo/build/nav_demo /home/tim/My_ROS_WS4Study/ROS_ws/nav_demo/build/nav_demo/CMakeFiles/actionlib_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nav_demo/CMakeFiles/actionlib_generate_messages_py.dir/depend
 

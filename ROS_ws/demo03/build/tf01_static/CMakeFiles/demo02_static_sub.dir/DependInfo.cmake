@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tim/ROS_ws/demo03/src/tf01_static/src/demo02_static_sub.cpp" "/home/tim/ROS_ws/demo03/build/tf01_static/CMakeFiles/demo02_static_sub.dir/src/demo02_static_sub.cpp.o"
+  "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/tf01_static/src/demo02_static_sub.cpp" "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/build/tf01_static/CMakeFiles/demo02_static_sub.dir/src/demo02_static_sub.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/tim/ROS_ws/demo03/src/tf01_static/include"
+  "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/tf01_static/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"

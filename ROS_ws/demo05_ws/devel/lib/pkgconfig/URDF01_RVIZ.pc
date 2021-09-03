@@ -1,0 +1,8 @@
+prefix=/home/tim/My_ROS_WS4Study/ROS_ws/demo05_ws/devel
+
+Name: URDF01_RVIZ
+Description: Description of URDF01_RVIZ
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

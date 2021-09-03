@@ -1,8 +1,8 @@
-# Install script for directory: /home/tim/ROS_ws/demo03/src/rosbags
+# Install script for directory: /home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/rosbags
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tim/ROS_ws/demo03/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tim/ROS_ws/demo03/build/rosbags/catkin_generated/installspace/rosbags.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/build/rosbags/catkin_generated/installspace/rosbags.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbags/cmake" TYPE FILE FILES
-    "/home/tim/ROS_ws/demo03/build/rosbags/catkin_generated/installspace/rosbagsConfig.cmake"
-    "/home/tim/ROS_ws/demo03/build/rosbags/catkin_generated/installspace/rosbagsConfig-version.cmake"
+    "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/build/rosbags/catkin_generated/installspace/rosbagsConfig.cmake"
+    "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/build/rosbags/catkin_generated/installspace/rosbagsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbags" TYPE FILE FILES "/home/tim/ROS_ws/demo03/src/rosbags/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbags" TYPE FILE FILES "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/rosbags/package.xml")
 endif()
 

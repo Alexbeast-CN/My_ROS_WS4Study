@@ -1,8 +1,8 @@
-# Install script for directory: /home/tim/ROS_ws/demo03/src/tf4_turtle
+# Install script for directory: /home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/tf4_turtle
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tim/ROS_ws/demo03/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tim/ROS_ws/demo03/build/tf4_turtle/catkin_generated/installspace/tf4_turtle.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/build/tf4_turtle/catkin_generated/installspace/tf4_turtle.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf4_turtle/cmake" TYPE FILE FILES
-    "/home/tim/ROS_ws/demo03/build/tf4_turtle/catkin_generated/installspace/tf4_turtleConfig.cmake"
-    "/home/tim/ROS_ws/demo03/build/tf4_turtle/catkin_generated/installspace/tf4_turtleConfig-version.cmake"
+    "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/build/tf4_turtle/catkin_generated/installspace/tf4_turtleConfig.cmake"
+    "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/build/tf4_turtle/catkin_generated/installspace/tf4_turtleConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf4_turtle" TYPE FILE FILES "/home/tim/ROS_ws/demo03/src/tf4_turtle/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf4_turtle" TYPE FILE FILES "/home/tim/My_ROS_WS4Study/ROS_ws/demo03/src/tf4_turtle/package.xml")
 endif()
 

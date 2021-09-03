@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tim/ROS_ws/demo04/src
+CMAKE_SOURCE_DIR = /home/tim/My_ROS_WS4Study/ROS_ws/demo04/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tim/ROS_ws/demo04/build
+CMAKE_BINARY_DIR = /home/tim/My_ROS_WS4Study/ROS_ws/demo04/build
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/tim/ROS_ws/demo04/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tim/ROS_ws/demo04/src /home/tim/ROS_ws/demo04/src /home/tim/ROS_ws/demo04/build /home/tim/ROS_ws/demo04/build /home/tim/ROS_ws/demo04/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tim/My_ROS_WS4Study/ROS_ws/demo04/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tim/My_ROS_WS4Study/ROS_ws/demo04/src /home/tim/My_ROS_WS4Study/ROS_ws/demo04/src /home/tim/My_ROS_WS4Study/ROS_ws/demo04/build /home/tim/My_ROS_WS4Study/ROS_ws/demo04/build /home/tim/My_ROS_WS4Study/ROS_ws/demo04/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

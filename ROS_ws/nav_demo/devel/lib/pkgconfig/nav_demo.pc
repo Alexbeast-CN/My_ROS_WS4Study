@@ -1,4 +1,4 @@
-prefix=/home/tim/ROS_ws/nav_demo/devel
+prefix=/home/tim/My_ROS_WS4Study/ROS_ws/nav_demo/devel
 
 Name: nav_demo
 Description: Description of nav_demo

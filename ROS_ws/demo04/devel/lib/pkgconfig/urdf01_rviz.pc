@@ -1,4 +1,4 @@
-prefix=/home/tim/ROS_ws/demo04/devel
+prefix=/home/tim/My_ROS_WS4Study/ROS_ws/demo04/devel
 
 Name: urdf01_rviz
 Description: Description of urdf01_rviz
