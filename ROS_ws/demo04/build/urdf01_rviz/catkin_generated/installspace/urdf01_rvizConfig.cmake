@@ -67,14 +67,14 @@ set(urdf01_rviz_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(urdf01_rviz_SOURCE_PREFIX /home/tim/My_ROS_WS4Study/ROS_ws/demo04/src/urdf01_rviz)
-  set(urdf01_rviz_DEVEL_PREFIX /home/tim/My_ROS_WS4Study/ROS_ws/demo04/devel)
+  set(urdf01_rviz_SOURCE_PREFIX /home/tim/My_ROS/My_ROS_WS4Study/ROS_ws/demo04/src/urdf01_rviz)
+  set(urdf01_rviz_DEVEL_PREFIX /home/tim/My_ROS/My_ROS_WS4Study/ROS_ws/demo04/devel)
   set(urdf01_rviz_INSTALL_PREFIX "")
   set(urdf01_rviz_PREFIX ${urdf01_rviz_DEVEL_PREFIX})
 else()
   set(urdf01_rviz_SOURCE_PREFIX "")
   set(urdf01_rviz_DEVEL_PREFIX "")
-  set(urdf01_rviz_INSTALL_PREFIX /home/tim/My_ROS_WS4Study/ROS_ws/demo04/install)
+  set(urdf01_rviz_INSTALL_PREFIX /home/tim/My_ROS/My_ROS_WS4Study/ROS_ws/demo04/install)
   set(urdf01_rviz_PREFIX ${urdf01_rviz_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/tim/My_ROS_WS4Study/ROS_ws/demo04/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/tim/My_ROS/My_ROS_WS4Study/ROS_ws/demo04/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

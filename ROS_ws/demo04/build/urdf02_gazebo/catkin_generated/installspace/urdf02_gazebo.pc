@@ -1,4 +1,4 @@
-prefix=/home/tim/My_ROS_WS4Study/ROS_ws/demo04/install
+prefix=/home/tim/My_ROS/My_ROS_WS4Study/ROS_ws/demo04/install
 
 Name: urdf02_gazebo
 Description: Description of urdf02_gazebo

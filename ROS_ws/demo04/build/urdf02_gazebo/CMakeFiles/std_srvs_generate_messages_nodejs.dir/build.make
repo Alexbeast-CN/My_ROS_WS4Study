@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tim/My_ROS_WS4Study/ROS_ws/demo04/src
+CMAKE_SOURCE_DIR = /home/tim/My_ROS/My_ROS_WS4Study/ROS_ws/demo04/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tim/My_ROS_WS4Study/ROS_ws/demo04/build
+CMAKE_BINARY_DIR = /home/tim/My_ROS/My_ROS_WS4Study/ROS_ws/demo04/build
 
 # Utility rule file for std_srvs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ urdf02_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build: std_srvs_g
 .PHONY : urdf02_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
 
 urdf02_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean:
-	cd /home/tim/My_ROS_WS4Study/ROS_ws/demo04/build/urdf02_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/tim/My_ROS/My_ROS_WS4Study/ROS_ws/demo04/build/urdf02_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : urdf02_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
 
 urdf02_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/depend:
-	cd /home/tim/My_ROS_WS4Study/ROS_ws/demo04/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tim/My_ROS_WS4Study/ROS_ws/demo04/src /home/tim/My_ROS_WS4Study/ROS_ws/demo04/src/urdf02_gazebo /home/tim/My_ROS_WS4Study/ROS_ws/demo04/build /home/tim/My_ROS_WS4Study/ROS_ws/demo04/build/urdf02_gazebo /home/tim/My_ROS_WS4Study/ROS_ws/demo04/build/urdf02_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tim/My_ROS/My_ROS_WS4Study/ROS_ws/demo04/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tim/My_ROS/My_ROS_WS4Study/ROS_ws/demo04/src /home/tim/My_ROS/My_ROS_WS4Study/ROS_ws/demo04/src/urdf02_gazebo /home/tim/My_ROS/My_ROS_WS4Study/ROS_ws/demo04/build /home/tim/My_ROS/My_ROS_WS4Study/ROS_ws/demo04/build/urdf02_gazebo /home/tim/My_ROS/My_ROS_WS4Study/ROS_ws/demo04/build/urdf02_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : urdf02_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/depend
 
