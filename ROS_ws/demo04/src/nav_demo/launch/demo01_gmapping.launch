@@ -48,7 +48,7 @@
           pkg="rviz" 
           type="rviz" 
           name="rviz" 
-          args="-d $(find urdf01_rviz)/config/show_urdf.rviz"/>
+          args="-d $(find nav_demo)/config/nav_demo.rviz"/>
         <!-- 可以保存 rviz 配置并后期直接使用-->
         <!--
         <node pkg="rviz" type="rviz" name="rviz" args="-d $(find my_nav_sum)/rviz/gmapping.rviz"/>
