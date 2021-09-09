@@ -1,0 +1,12 @@
+<!-- 集成导航相关的 launch 文件-->
+
+<launch>
+    <!-- Slam -->
+    <include file="$(find nav_demo)/launch/demo01_gmapping.launch"/>
+    <!-- 定位 -->
+    <include file="$(find nav_demo)/launch/demo04_amcl.launch"/>
+    <!-- move_base -->
+    <include file="$(find nav_demo)/launch/demo05_path.launch"/>
+
+
+</launch>
